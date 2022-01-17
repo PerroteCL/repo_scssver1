@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Permanent Marker', cursive;
+  scroll-behavior: smooth;
+}
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+/* *********************************** */
+/* --- NAV MENU ---*/
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 18px 100px;
+  z-index: 1000;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+header a .logo {
+  height: 75px;
+}
+
+header ul {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  display: inline-block;
+  margin: 0 15px;
+  color: #111;
+  text-decoration: none;
+}
+
+header .nav-ul a:after {
+  content: "";
+  position: absolute;
+  background-color: #AEA4F2;
+  height: 3px;
+  width: 0;
+  left: 0;
+  bottom: -10px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+header .nav-ul a:hover:after {
+  width: 100%;
+}
+
+header.sticky {
+  padding: 10px 100px;
+  -webkit-box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.banner {
+  position: relative;
+  min-height: 100vh;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(26, 26, 26, 0.3)), to(rgba(26, 26, 26, 0.3))), url(../images/index-img/banner2.jpg);
+  background: linear-gradient(rgba(26, 26, 26, 0.3), rgba(26, 26, 26, 0.3)), url(../images/index-img/banner2.jpg);
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.banner .text {
+  padding-left: 5%;
+}
+
+.banner .text h1 {
+  font-size: 5em;
+  color: white;
+  font-weight: 600;
+  line-height: 1.5em;
+}
+
+/* ---  END NAV MENU ---*/
+/*# sourceMappingURL=main.css.map */
