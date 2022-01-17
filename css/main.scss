@@ -1,8 +1,14 @@
+//VARIABLES
+$fuenteWeb:'Permanent Marker', cursive;
+
+
+//END VARIABLES
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Permanent Marker', cursive;
+    font-family: $fuenteWeb;
     scroll-behavior: smooth;
   }
     
@@ -15,8 +21,8 @@
   main {
     flex-grow: 1;
   }
-  /* *********************************** */
-/* --- NAV MENU ---*/
+//****************************************************************
+//NAV MENU
 
 header {
     position: fixed;
@@ -99,7 +105,7 @@ header {
     }
   }
   
-  /* ---  END NAV MENU ---*/
+//END NAV MENU
 
 
-  
+

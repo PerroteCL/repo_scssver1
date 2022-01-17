@@ -3,7 +3,7 @@
   padding: 0;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-family: 'Permanent Marker', cursive;
+  font-family: "Permanent Marker", cursive;
   scroll-behavior: smooth;
 }
 
@@ -24,8 +24,6 @@ main {
           flex-grow: 1;
 }
 
-/* *********************************** */
-/* --- NAV MENU ---*/
 header {
   position: fixed;
   top: 0;
@@ -117,6 +115,4 @@ header.sticky {
   font-weight: 600;
   line-height: 1.5em;
 }
-
-/* ---  END NAV MENU ---*/
 /*# sourceMappingURL=main.css.map */
